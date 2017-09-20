@@ -1,3 +1,11 @@
+'''
+This script extracts emails of a particular domain (eg: gmail.com, yahoo.com) from a list of emails.
+The list provided as input must contain only 1 email in 1 line.
+
+* Usage: python e_ext.py input.txt output.txt @domain
+* Example: python e_ext.py email.txt result.txt @gmail.com
+'''
+
 import sys
 
 try:
